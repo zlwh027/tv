@@ -54,7 +54,10 @@
       "type": 3,
       "api": "csp_YD",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25
     },
     {
       "key": "双星",
