@@ -1,37 +1,37 @@
 {
-  "spider": "https://raw.githubusercontent.com/zlwh027/tv/refs/heads/main/824279901a5b5dac85e113e9dd930d4c.jpg;md5;2c813218abd7613d4147c0ab11c08fdf",
-  "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
-  "logo": "https://raw.githubusercontent.com/zlwh027/tv/refs/heads/main/photo_2022-09-14_00-00-57_20251204145106336newMediaImage.jpg",
+  "spider": "https://raw.githubusercontent.com/zlwh027/tv/refs/heads/main/824279901a5b5dac85e113e9dd930d4c.jpg;md5;2c813218abd7613d4147c0ab11c08fdf"，
+  "wallpaper": "http://127.0.0.1:9978/proxy?do=wall"，
+  "logo": "https://raw.githubusercontent.com/zlwh027/tv/refs/heads/main/photo_2022-09-14_00-00-57_20251204145106336newMediaImage.jpg"，
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "🤓公众号┃O杰克",
-      "type": 3,
-      "api": "csp_DoubanGuard",
-      "searchable": 0,
+      "key": "豆瓣"，
+      "name": "🤓我的┃在线"，
+      "type": 3，
+      "api": "csp_DoubanGuard"，
+      "searchable": 0，
       "changeable": 1
-    },
+    }，
     {
-      "key": "配置中心",
-      "name": "👨‍🍳‍配置┃中心",
-      "type": 3,
-      "api": "csp_ConfigGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
+      "key": "配置中心"，
+      "name": "👨‍🍳‍配置┃中心"，
+      "type": 3，
+      "api": "csp_ConfigGuard"，
+      "searchable": 0，
+      "changeable": 0，
+      "indexs": 0，
       "style": {
-        "type": "rect",
+        "type": "rect"，
         "ratio": 1.43
       }
-    },
+    }，
     {
-      "key": "本地播放",
-      "name": "🐼本地┃播放",
-      "type": 3,
-      "api": "csp_LocalGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
+      "key": "本地播放"，
+      "name": "🐼本地┃播放"，
+      "type": 3，
+      "api": "csp_LocalGuard"，
+      "searchable": 0，
+      "changeable": 0，
+      "indexs": 0，
       "style": {
         "type": "list"
       },
