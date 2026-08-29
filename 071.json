@@ -1,107 +1,41 @@
 {
-  "spider": "",
-  "wallpaper": "https://picsum.photos/1920/1080",
+  "sites": [
+    {
+      "key": "点播源",
+      "name": "点播源",
+      "type": 0,
+      "api": "https://mh.yichengwlkj.com/pc",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "国产剧",
+        "港台剧",
+        "日韩剧",
+        "欧美剧",
+        "泰剧",
+        "综艺"
+      ]
+    }
+  ],
   "lives": [
     {
-      "group": "redirect",
+      "group": "自定义",
       "channels": [
         {
-          "name": "live",
+          "name": "直播源",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2lwdHYtbGlzdC9pcHR2LWxpc3QvbWFpbi5tM3U4"
+            "about:blank"
           ]
         }
       ]
     }
   ],
-  "sites": [
-    {
-      "key": "csp_DouDou",
-      "name": "🔍豆瓣推荐",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "csp_Kunyu77",
-      "name": "👒酷云77",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_BuLei",
-      "name": "🍿布雷影视",
-      "type": 3,
-      "api": "csp_BuLei",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_AppYsV2",
-      "name": "🎬南瓜影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.nangua55.com/api.php/app/"
-    },
-    {
-      "key": "csp_XBPQ_6V",
-      "name": "📺6V电影",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "分类url": "https://www.66s6.net/frim/index{cateId}.html?page={catePg}"
-      }
-    }
-  ],
   "parses": [
     {
-      "name": "Json并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
-    {
       "name": "解析1",
-      "type": 1,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ]
-      }
+      "type": 0,
+      "url": "https://xxx.xxx?jx="
     }
   ],
   "flags": [
@@ -114,9 +48,7 @@
     "tudou",
     "pptv",
     "mgtv",
-    "wasu",
-    "bilibili",
-    "renrenmi"
+    "wasu"
   ],
   "ijk": [
     {
@@ -169,6 +101,11 @@
         },
         {
           "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
           "name": "enable-accurate-seek",
           "value": "0"
         },
@@ -191,11 +128,6 @@
           "category": 4,
           "name": "mediacodec-hevc",
           "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
         }
       ]
     },
@@ -249,6 +181,11 @@
         },
         {
           "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
           "name": "enable-accurate-seek",
           "value": "0"
         },
@@ -271,11 +208,6 @@
           "category": 4,
           "name": "mediacodec-hevc",
           "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
         }
       ]
     }
